@@ -8,7 +8,7 @@ namespace VScrollBar
         {
             InitializeComponent();
         }
-
+        //si premeu aquesta VScrollBar la label1 pasa a ser visible
         private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
             if (ScrollBarState.Pressed != 0)
